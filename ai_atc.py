@@ -291,7 +291,7 @@ def run_conversation(request="What's the weather like in San Francisco, Tokyo, a
 
         return second_response
 #print(run_conversation())
-print(run_conversation("N31469 request to land"))
-print(run_conversation("N31480 request to land"))
-print(run_conversation("What is the order of N31480?"))
-print(run_conversation("28000 request to land, and prioritize 28000"))
+run_conversation("N31469 request to land")
+run_conversation("N31480 request to land")
+run_conversation("What is the order of N31480?")
+run_conversation("28000 request to land, and prioritize 28000")
